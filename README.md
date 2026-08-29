@@ -11,6 +11,7 @@ Patina UI (shared with [guides.johna.kiwi](https://guides.johna.kiwi/) / [johna.
 - [Astro](https://astro.build/) (static)
 - Prebuilt `data/repositories.json`
 - Search, category filters, pagination
+- RSS at `/rss.xml`
 - GitHub Pages + Actions
 
 ## Quick start

@@ -16,6 +16,7 @@ const pageTitle = title === 'Index' ? 'pages.johna.kiwi' : `${title} · pages.jo
 const home = withBase();
 const shortcutLabel = 'Ctrl K';
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const rssHref = withBase('rss.xml');
 const ogImageURL = new URL(withBase('og.png'), Astro.site);
 const pathNorm = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const homeNorm = home.replace(/\/+$/, '') || '/';
@@ -32,6 +33,7 @@ const isHome = pathNorm === homeNorm;
     <meta name="theme-color" content="#071014" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href={withBase('favicon.svg')} type="image/svg+xml" />
     <link rel="canonical" href={canonicalURL} />
+    <link rel="alternate" type="application/rss+xml" title="pages.johna.kiwi" href={rssHref} />
 
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
@@ -139,6 +141,8 @@ const isHome = pathNorm === homeNorm;
           <a href="https://johna.kiwi/" rel="noopener noreferrer">johna.kiwi</a>
           ·
           <a href="https://github.com/jajera/pages-index">GitHub</a>
+          ·
+          <a href={rssHref}>RSS</a>
         </p>
       </div>
     </footer>
