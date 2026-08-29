@@ -622,29 +622,6 @@
       "isUserRepo": true
     },
     {
-      "id": 772829486,
-      "name": "geonet-http-volcano-demo",
-      "full_name": "jajera/geonet-http-volcano-demo",
-      "description": null,
-      "html_url": "https://github.com/jajera/geonet-http-volcano-demo",
-      "homepage": "https://jajera.github.io/geonet-http-volcano-demo/",
-      "language": "Shell",
-      "topics": [],
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "has_pages": true,
-      "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-08-12T18:24:33Z",
-      "owner": {
-        "login": "jajera",
-        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
-        "html_url": "https://github.com/jajera"
-      },
-      "category": "web-apps",
-      "pagesUrl": "https://jajera.github.io/geonet-http-volcano-demo",
-      "isUserRepo": true
-    },
-    {
       "id": 1332333173,
       "name": "geonet-landslide-timelapse",
       "full_name": "jajera/geonet-landslide-timelapse",
@@ -711,29 +688,6 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/geonet-quake-classifier",
-      "isUserRepo": true
-    },
-    {
-      "id": 769831940,
-      "name": "geonet-s3-volcano-demo",
-      "full_name": "jajera/geonet-s3-volcano-demo",
-      "description": null,
-      "html_url": "https://github.com/jajera/geonet-s3-volcano-demo",
-      "homepage": "https://jajera.github.io/geonet-s3-volcano-demo/",
-      "language": "Svelte",
-      "topics": [],
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "has_pages": true,
-      "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-08-11T08:18:34Z",
-      "owner": {
-        "login": "jajera",
-        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
-        "html_url": "https://github.com/jajera"
-      },
-      "category": "web-apps",
-      "pagesUrl": "https://jajera.github.io/geonet-s3-volcano-demo",
       "isUserRepo": true
     },
     {
@@ -3050,14 +3004,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 132,
+    "totalCount": 130,
     "categories": {
-      "web-apps": 63,
+      "web-apps": 61,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-29T18:36:09.787Z",
+    "lastUpdated": "2026-08-29T18:47:13.913Z",
     "sources": {
       "users": [
         "jajera"

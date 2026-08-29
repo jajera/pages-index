@@ -38,7 +38,7 @@ npm run preview
 [`config.json`](config.json) controls:
 
 - `sources.users` / `sources.organizations` to scan
-- include/exclude patterns
+- include/exclude patterns (archived repos are skipped by default via `excludeArchived`)
 - categorization rules for web apps, Terraform, Actions, DevContainer features
 
 [`scripts/update-repositories.mjs`](scripts/update-repositories.mjs) writes [`data/repositories.json`](data/repositories.json).

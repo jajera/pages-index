@@ -9,6 +9,7 @@
     "organizations": ["actionsforge", "cloudbuildlab", "jdevto", "tfstack"]
   },
   "filters": {
+    "excludeArchived": true,
     "includePatterns": [
       "has_pages",
       "terraform-*",

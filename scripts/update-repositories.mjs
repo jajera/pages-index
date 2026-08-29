@@ -192,6 +192,11 @@ class RepositoryUpdater {
   }
 
   async shouldIncludeRepository(repo) {
+    // Skip archived repositories (default on)
+    if (repo.archived && this.config.filters.excludeArchived !== false) {
+      return false;
+    }
+
     // Check exclusions first
     if (this.config.filters.excludeRepositories.includes(repo.name)) {
       return false;
