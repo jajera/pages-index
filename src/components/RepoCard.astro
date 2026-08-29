@@ -9,7 +9,6 @@ interface Props {
 const { repo } = Astro.props;
 const href = primaryUrl(repo);
 const categoryLabel = CATEGORY_LABELS[repo.category] || repo.category;
-const topics = (repo.topics || []).slice(0, 4);
 const searchBlob = [
   repo.name,
   repo.full_name,
@@ -23,37 +22,12 @@ const searchBlob = [
 ---
 
 <li data-category={repo.category} data-search={searchBlob}>
-  <article class="entry-card">
-    <p class="entry-meta">
-      <span class="badge">{categoryLabel}</span>
-      <span>{repo.owner?.login || 'unknown'}</span>
-    </p>
-    <h2 class="entry-card__title">
-      <a href={href} rel="noopener noreferrer">{repo.name}</a>
-    </h2>
-    {
-      repo.description ? (
-        <p class="entry-card__summary">{repo.description}</p>
-      ) : (
-        <p class="entry-card__summary">No description.</p>
-      )
-    }
-    {
-      topics.length > 0 && (
-        <ul class="tag-list">
-          {topics.map((topic) => (
-            <li>{topic}</li>
-          ))}
-        </ul>
-      )
-    }
-    <p class="cta-links">
-      <a href={href} rel="noopener noreferrer">
-        {repo.has_pages || repo.pagesUrl ? 'Open site' : 'Open repo'}
-      </a>
-      <a class="cta--secondary" href={repo.html_url} rel="noopener noreferrer">
-        GitHub
-      </a>
-    </p>
-  </article>
+  <a class="entry-card" href={href} rel="noopener noreferrer">
+    <div class="entry-meta">
+      <span class="badge badge--walkthrough">{categoryLabel}</span>
+      <span class="badge badge--category">{repo.owner?.login || 'unknown'}</span>
+    </div>
+    <h2 class="entry-card__title">{repo.name}</h2>
+    {repo.description && <p class="entry-card__summary">{repo.description}</p>}
+  </a>
 </li>
