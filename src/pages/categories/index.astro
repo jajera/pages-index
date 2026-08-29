@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CATEGORY_KEYS, CATEGORY_LABELS, loadRepositories } from '../../lib/repositories';
+import { withBase } from '../../lib/paths';
+
+const data = loadRepositories();
+const counts = Object.fromEntries(
+  CATEGORY_KEYS.map((key) => [
+    key,
+    data.repositories.filter((repo) => repo.category === key).length,
+  ]),
+);
+---
+
+<BaseLayout title="Categories" description="Browse the pages index by category.">
+  <h1 class="page-title">Categories</h1>
+  <p class="page-lede">Filter the index by topic area.</p>
+
+  <ul class="category-grid">
+    {
+      CATEGORY_KEYS.map((key) => (
+        <li>
+          <a href={withBase(`categories/${key}/`)}>
+            {CATEGORY_LABELS[key]}
+            <span class="category-grid__count">
+              {counts[key]} {counts[key] === 1 ? 'entry' : 'entries'}
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

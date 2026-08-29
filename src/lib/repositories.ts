@@ -45,6 +45,8 @@ export const CATEGORY_LABELS: Record<string, string> = {
   'devcontainer-features': 'DevContainer',
 };
 
+export const CATEGORY_KEYS = Object.keys(CATEGORY_LABELS);
+
 export function loadRepositories(): RepoData {
   try {
     const raw = readFileSync(dataPath, 'utf8');

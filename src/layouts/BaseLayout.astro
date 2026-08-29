@@ -14,6 +14,7 @@ const {
 } = Astro.props;
 const pageTitle = title === 'Index' ? 'pages.johna.kiwi' : `${title} · pages.johna.kiwi`;
 const home = withBase();
+const categoriesHref = withBase('categories/');
 const shortcutLabel = 'Ctrl K';
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const rssHref = withBase('rss.xml');
@@ -21,6 +22,7 @@ const ogImageURL = new URL(withBase('og.png'), Astro.site);
 const pathNorm = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const homeNorm = home.replace(/\/+$/, '') || '/';
 const isHome = pathNorm === homeNorm;
+const isCategories = pathNorm.includes('/categories');
 ---
 
 <!doctype html>
@@ -123,8 +125,8 @@ const isHome = pathNorm === homeNorm;
 
     <nav class="site-nav" aria-label="Primary">
       <div class="site-nav__inner">
-        <a href={home} aria-current={isHome ? 'page' : undefined}>Index</a>
-        <a href="https://guides.johna.kiwi/" rel="noopener noreferrer">guides.johna.kiwi</a>
+        <a href={home} aria-current={isHome && !isCategories ? 'page' : undefined}>Index</a>
+        <a href={categoriesHref} aria-current={isCategories ? 'page' : undefined}>Categories</a>
         <a href="https://johna.kiwi/" rel="noopener noreferrer">johna.kiwi</a>
       </div>
     </nav>
@@ -139,6 +141,8 @@ const isHome = pathNorm === homeNorm;
           <span class="brand-name">pages.johna.kiwi</span>
           · John Ajera ·
           <a href="https://johna.kiwi/" rel="noopener noreferrer">johna.kiwi</a>
+          ·
+          <a href="https://guides.johna.kiwi/" rel="noopener noreferrer">guides</a>
           ·
           <a href="https://github.com/jajera/pages-index">GitHub</a>
           ·
