@@ -1,0 +1,78 @@
+{
+  "site": {
+    "title": "pages.johna.kiwi",
+    "description": "Index of public GitHub Pages sites modules and tools across my accounts",
+    "author": "John Ajera"
+  },
+  "sources": {
+    "users": ["jajera"],
+    "organizations": ["actionsforge", "cloudbuildlab", "jdevto", "tfstack"]
+  },
+  "filters": {
+    "includePatterns": [
+      "has_pages",
+      "terraform-*",
+      "actions-*",
+      "topic:github-action",
+      "topic:terraform-module",
+      "topic:devcontainer-feature",
+      "features"
+    ],
+    "excludeRepositories": [
+      "gitprofile",
+      "pages-index",
+      ".github",
+      "actions-commitmsg-conform",
+      "actions-go-test",
+      "actions-golangci-lint",
+      "actions-govulncheck",
+      "actions-markdown-lint",
+      "actions-terraform-docs-generator",
+      "actionsforge.github.io",
+      "devcontainers.github.io",
+      "jekyll",
+      "mkdocs",
+      "mkdocs-demo",
+      "sveltekit"
+    ],
+    "excludePatterns": [
+      "archive-*",
+      "backup-*",
+      "test-*"
+    ],
+    "excludeDevcontainerFeatures": [
+      "devcontainer-template",
+      "features"
+    ]
+  },
+  "categorization": {
+    "webApps": {
+      "topics": ["web-app", "webapp", "pwa", "react", "vue", "angular", "javascript", "typescript", "nextjs", "svelte"],
+      "keywords": ["app", "tool", "converter", "generator", "calculator", "game", "dashboard", "ui", "frontend"]
+    },
+    "terraformModules": {
+      "namePrefix": "terraform-",
+      "topics": ["terraform-module", "terraform", "infrastructure", "iac"]
+    },
+    "documentation": {
+      "topics": ["documentation", "docs", "wiki", "guide", "tutorial"],
+      "keywords": ["docs", "guide", "tutorial", "wiki", "documentation"]
+    },
+    "githubActions": {
+      "namePrefix": "actions-",
+      "topics": ["github-action", "action", "actions"]
+    },
+    "devcontainerFeatures": {
+      "nameExact": "features",
+      "repo": {
+        "owner": "jajera",
+        "name": "features"
+      },
+      "topics": ["devcontainer", "devcontainer-feature", "devcontainer-features"]
+    }
+  },
+  "settings": {
+    "rateLimitDelay": 1000,
+    "updateSchedule": "0 */6 * * *"
+  }
+}

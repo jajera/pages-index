@@ -1,0 +1,172 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RepoCard from '../components/RepoCard.astro';
+import { CATEGORY_LABELS, loadRepositories } from '../lib/repositories';
+
+const data = loadRepositories();
+const repos = [...data.repositories].sort((a, b) => {
+  const au = a.updated_at || a.created_at || '';
+  const bu = b.updated_at || b.created_at || '';
+  return bu.localeCompare(au);
+});
+
+const usedCategories = Object.keys(CATEGORY_LABELS).filter((key) =>
+  repos.some((repo) => repo.category === key),
+);
+
+const pageSize = 12;
+const lastUpdated = data.metadata?.lastUpdated
+  ? new Date(data.metadata.lastUpdated).toISOString().slice(0, 10)
+  : null;
+---
+
+<BaseLayout
+  title="Index"
+  description="Index of public GitHub Pages sites, modules, and tools across my accounts."
+>
+  <div class="feed-heading">
+    <div>
+      <p class="eyebrow">Public Pages and reusable repos</p>
+      <h1 class="page-title">Index</h1>
+    </div>
+
+    {
+      repos.length > 0 && (
+        <div class="feed-filters">
+          <label class="feed-filter">
+            Category
+            <select id="filter-category" name="category">
+              <option value="ALL">All categories</option>
+              {usedCategories.map((key) => (
+                <option value={key}>{CATEGORY_LABELS[key]}</option>
+              ))}
+            </select>
+          </label>
+        </div>
+      )
+    }
+  </div>
+
+  <p class="page-lede">
+    Auto-discovered GitHub Pages sites, Terraform modules, Actions, and DevContainer features.
+    {lastUpdated && <> Updated {lastUpdated}.</>}
+  </p>
+
+  {
+    repos.length === 0 ? (
+      <p class="empty-state">
+        No repositories in the index yet. Run <code>npm run update</code> with a GitHub token, then rebuild.
+      </p>
+    ) : (
+      <>
+        <p id="filter-status" class="filter-status" role="status" aria-live="polite" hidden>
+          No entries match these filters.
+        </p>
+        <ul class="entry-list" id="entry-list" data-page-size={pageSize}>
+          {repos.map((repo) => (
+            <RepoCard repo={repo} />
+          ))}
+        </ul>
+        <nav id="pagination" class="pagination" aria-label="Index pages" hidden>
+          <button type="button" class="pagination__btn" id="pagination-prev" aria-label="Previous page">
+            Previous
+          </button>
+          <p class="pagination__status" id="pagination-status" aria-live="polite"></p>
+          <button type="button" class="pagination__btn" id="pagination-next" aria-label="Next page">
+            Next
+          </button>
+        </nav>
+        <script is:inline>
+          (function () {
+            const categorySelect = document.getElementById('filter-category');
+            const searchInput = document.getElementById('site-search-input');
+            const status = document.getElementById('filter-status');
+            const list = document.getElementById('entry-list');
+            const pagination = document.getElementById('pagination');
+            const prevBtn = document.getElementById('pagination-prev');
+            const nextBtn = document.getElementById('pagination-next');
+            const pageStatus = document.getElementById('pagination-status');
+            const cards = Array.from(document.querySelectorAll('#entry-list > li'));
+
+            if (!categorySelect || !searchInput || !status || !list || !pagination) return;
+
+            const pageSize = Math.max(1, parseInt(list.dataset.pageSize || '12', 10) || 12);
+            let page = 1;
+
+            function matches(card) {
+              const category = categorySelect.value;
+              const q = (searchInput.value || '').trim().toLowerCase();
+              const catOk = category === 'ALL' || card.dataset.category === category;
+              const searchOk = !q || (card.dataset.search || '').includes(q);
+              return catOk && searchOk;
+            }
+
+            function apply() {
+              const matched = cards.filter(matches);
+              const totalPages = Math.max(1, Math.ceil(matched.length / pageSize));
+              if (page > totalPages) page = totalPages;
+
+              cards.forEach((card) => {
+                card.hidden = true;
+              });
+
+              const start = (page - 1) * pageSize;
+              matched.slice(start, start + pageSize).forEach((card) => {
+                card.hidden = false;
+              });
+
+              status.hidden = matched.length > 0;
+              const showPager = matched.length > pageSize;
+              pagination.hidden = !showPager;
+              if (showPager && pageStatus && prevBtn && nextBtn) {
+                pageStatus.textContent = 'Page ' + page + ' of ' + totalPages;
+                prevBtn.disabled = page <= 1;
+                nextBtn.disabled = page >= totalPages;
+              }
+
+              const params = new URLSearchParams(window.location.search);
+              const q = searchInput.value.trim();
+              if (q) params.set('q', q);
+              else params.delete('q');
+              const cat = categorySelect.value;
+              if (cat && cat !== 'ALL') params.set('category', cat);
+              else params.delete('category');
+              const next = params.toString();
+              const url = next ? window.location.pathname + '?' + next : window.location.pathname;
+              window.history.replaceState({}, '', url);
+            }
+
+            const params = new URLSearchParams(window.location.search);
+            const initialCat = params.get('category');
+            if (initialCat && [...categorySelect.options].some((o) => o.value === initialCat)) {
+              categorySelect.value = initialCat;
+            }
+
+            categorySelect.addEventListener('change', function () {
+              page = 1;
+              apply();
+            });
+            searchInput.addEventListener('input', function () {
+              page = 1;
+              apply();
+            });
+            if (prevBtn) {
+              prevBtn.addEventListener('click', function () {
+                page -= 1;
+                apply();
+              });
+            }
+            if (nextBtn) {
+              nextBtn.addEventListener('click', function () {
+                page += 1;
+                apply();
+              });
+            }
+
+            apply();
+          })();
+        </script>
+      </>
+    )
+  }
+</BaseLayout>

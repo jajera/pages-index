@@ -1,0 +1,20 @@
+{
+  "name": "pages-index",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Index of public GitHub Pages sites modules and tools across my accounts",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "update": "node scripts/update-repositories.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^5.10.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

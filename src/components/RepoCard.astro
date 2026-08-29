@@ -1,0 +1,59 @@
+---
+import type { RepoItem } from '../lib/repositories';
+import { CATEGORY_LABELS, primaryUrl } from '../lib/repositories';
+
+interface Props {
+  repo: RepoItem;
+}
+
+const { repo } = Astro.props;
+const href = primaryUrl(repo);
+const categoryLabel = CATEGORY_LABELS[repo.category] || repo.category;
+const topics = (repo.topics || []).slice(0, 4);
+const searchBlob = [
+  repo.name,
+  repo.full_name,
+  repo.description || '',
+  repo.owner?.login || '',
+  categoryLabel,
+  ...(repo.topics || []),
+]
+  .join(' ')
+  .toLowerCase();
+---
+
+<li data-category={repo.category} data-search={searchBlob}>
+  <article class="entry-card">
+    <p class="entry-meta">
+      <span class="badge">{categoryLabel}</span>
+      <span>{repo.owner?.login || 'unknown'}</span>
+    </p>
+    <h2 class="entry-card__title">
+      <a href={href} rel="noopener noreferrer">{repo.name}</a>
+    </h2>
+    {
+      repo.description ? (
+        <p class="entry-card__summary">{repo.description}</p>
+      ) : (
+        <p class="entry-card__summary">No description.</p>
+      )
+    }
+    {
+      topics.length > 0 && (
+        <ul class="tag-list">
+          {topics.map((topic) => (
+            <li>{topic}</li>
+          ))}
+        </ul>
+      )
+    }
+    <p class="cta-links">
+      <a href={href} rel="noopener noreferrer">
+        {repo.has_pages || repo.pagesUrl ? 'Open site' : 'Open repo'}
+      </a>
+      <a class="cta--secondary" href={repo.html_url} rel="noopener noreferrer">
+        GitHub
+      </a>
+    </p>
+  </article>
+</li>

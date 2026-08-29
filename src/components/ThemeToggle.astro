@@ -1,0 +1,66 @@
+<button
+  class="theme-toggle"
+  type="button"
+  id="theme-toggle"
+  aria-live="polite"
+  title="Change colour theme"
+  hidden
+>
+  <svg class="icon theme-icon theme-icon-auto" aria-hidden="true" focusable="false">
+    <use href="#i-auto"></use>
+  </svg>
+  <svg class="icon theme-icon theme-icon-light" aria-hidden="true" focusable="false">
+    <use href="#i-light"></use>
+  </svg>
+  <svg class="icon theme-icon theme-icon-dark" aria-hidden="true" focusable="false">
+    <use href="#i-dark"></use>
+  </svg>
+  <span class="visually-hidden" id="theme-label">Colour theme: system</span>
+</button>
+
+<script is:inline>
+  (function () {
+    var modes = ['auto', 'light', 'dark'];
+    var labels = {
+      auto: 'Colour theme: system',
+      light: 'Colour theme: light',
+      dark: 'Colour theme: dark',
+    };
+    var root = document.documentElement;
+    var button = document.getElementById('theme-toggle');
+    var label = document.getElementById('theme-label');
+    if (!button || !label) return;
+
+    function current() {
+      var t = root.dataset.theme;
+      return t === 'light' || t === 'dark' ? t : 'auto';
+    }
+
+    function apply(mode) {
+      if (mode === 'auto') {
+        delete root.dataset.theme;
+        try {
+          localStorage.removeItem('theme');
+        } catch (e) {
+          /* storage unavailable */
+        }
+      } else {
+        root.dataset.theme = mode;
+        try {
+          localStorage.setItem('theme', mode);
+        } catch (e) {
+          /* storage unavailable */
+        }
+      }
+      label.textContent = labels[mode];
+      button.setAttribute('title', labels[mode]);
+    }
+
+    apply(current());
+    button.hidden = false;
+
+    button.addEventListener('click', function () {
+      apply(modes[(modes.indexOf(current()) + 1) % modes.length]);
+    });
+  })();
+</script>
