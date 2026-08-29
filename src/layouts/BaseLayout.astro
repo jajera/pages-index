@@ -23,6 +23,8 @@ const pathNorm = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const homeNorm = home.replace(/\/+$/, '') || '/';
 const isHome = pathNorm === homeNorm;
 const isCategories = pathNorm.includes('/categories');
+const gaId = 'G-P78X0KNMBG';
+const enableAnalytics = import.meta.env.PROD && Boolean(gaId);
 ---
 
 <!doctype html>
@@ -53,6 +55,21 @@ const isCategories = pathNorm.includes('/categories');
     <meta name="twitter:image:alt" content="pages.johna.kiwi - project index" />
 
     <title>{pageTitle}</title>
+    {
+      enableAnalytics && (
+        <>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+          <script is:inline define:vars={{ gaId }}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', gaId);
+          </script>
+        </>
+      )
+    }
     <script is:inline>
       (function () {
         var t = null;
