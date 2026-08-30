@@ -47,6 +47,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1350928220,
+      "name": "amplify-astro-cicd-walkthrough",
+      "full_name": "jajera/amplify-astro-cicd-walkthrough",
+      "description": "Guide to Amplify GitHub App staging PR previews CI and teardown",
+      "html_url": "https://github.com/jajera/amplify-astro-cicd-walkthrough",
+      "homepage": "https://amplify-astro-cicd-walkthrough.johna.kiwi/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-29T21:41:37Z",
+      "updated_at": "2026-08-30T03:32:14Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/amplify-astro-cicd-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1319861431,
       "name": "arch-icons",
       "full_name": "jajera/arch-icons",
@@ -397,14 +420,14 @@
       "full_name": "jajera/buildpacks-eks-walkthrough",
       "description": "Buildpacks on EKS with kpack CodeCommit ECR and managed Argo CD",
       "html_url": "https://github.com/jajera/buildpacks-eks-walkthrough",
-      "homepage": "https://jajera.github.io/buildpacks-eks-walkthrough/",
+      "homepage": "https://buildpacks-eks-walkthrough.johna.kiwi/",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-23T03:36:56Z",
-      "updated_at": "2026-08-29T04:55:01Z",
+      "updated_at": "2026-08-30T04:08:08Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -726,7 +749,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-08-29T17:58:48Z",
+      "updated_at": "2026-08-30T03:30:57Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3004,14 +3027,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 130,
+    "totalCount": 131,
     "categories": {
-      "web-apps": 61,
+      "web-apps": 62,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-29T18:49:32.357Z",
+    "lastUpdated": "2026-08-30T04:16:12.015Z",
     "sources": {
       "users": [
         "jajera"
