@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-28T11:24:14Z",
-      "updated_at": "2026-08-31T10:22:03Z",
+      "updated_at": "2026-08-31T20:48:12Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-21T12:42:22Z",
-      "updated_at": "2026-08-31T09:34:55Z",
+      "updated_at": "2026-08-31T15:45:35Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -312,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-03-19T08:14:59Z",
-      "updated_at": "2026-08-31T09:57:56Z",
+      "updated_at": "2026-08-31T16:45:57Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -742,14 +742,14 @@
       "full_name": "jajera/guides",
       "description": "Compilation of walkthroughs and articles",
       "html_url": "https://github.com/jajera/guides",
-      "homepage": "https://jajera.github.io/guides/",
+      "homepage": "https://guides.johna.kiwi/",
       "language": "Astro",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-08-30T05:08:01Z",
+      "updated_at": "2026-08-31T19:01:07Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1117,7 +1117,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-03T11:47:58Z",
-      "updated_at": "2026-08-31T10:53:03Z",
+      "updated_at": "2026-08-31T20:07:57Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3034,7 +3034,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-31T13:01:15.015Z",
+    "lastUpdated": "2026-08-31T22:38:11.288Z",
     "sources": {
       "users": [
         "jajera"
