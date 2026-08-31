@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-04T23:48:44Z",
-      "updated_at": "2026-08-30T05:07:54Z",
+      "updated_at": "2026-08-31T08:58:55Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-28T11:24:14Z",
-      "updated_at": "2026-08-30T05:07:48Z",
+      "updated_at": "2026-08-31T10:22:03Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-06T06:55:57Z",
-      "updated_at": "2026-08-30T05:06:32Z",
+      "updated_at": "2026-08-31T09:26:52Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -266,7 +266,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-11-29T19:47:28Z",
-      "updated_at": "2026-08-06T11:18:34Z",
+      "updated_at": "2026-08-31T07:06:44Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-21T12:42:22Z",
-      "updated_at": "2026-08-30T05:06:22Z",
+      "updated_at": "2026-08-31T09:34:55Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -312,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-03-19T08:14:59Z",
-      "updated_at": "2026-08-30T05:06:22Z",
+      "updated_at": "2026-08-31T09:57:56Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -351,14 +351,14 @@
       "full_name": "jajera/aws-private-connectivity-patterns-walkthrough",
       "description": "Hands on Terraform walkthrough of AWS private cross account connectivity patterns",
       "html_url": "https://github.com/jajera/aws-private-connectivity-patterns-walkthrough",
-      "homepage": "https://jajera.github.io/aws-private-connectivity-patterns-walkthrough/",
+      "homepage": "https://aws-private-connectivity-patterns-walkthrough.johna.kiwi",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-10T23:47:00Z",
-      "updated_at": "2026-08-30T05:06:44Z",
+      "updated_at": "2026-08-31T10:32:40Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -397,14 +397,14 @@
       "full_name": "jajera/bind-to-route53-mirror-walkthrough",
       "description": "Hybrid DNS walkthrough mirroring BIND zones into a Route 53 private hosted zone over Site-to-Site VPN",
       "html_url": "https://github.com/jajera/bind-to-route53-mirror-walkthrough",
-      "homepage": "https://jajera.github.io/bind-to-route53-mirror-walkthrough/",
+      "homepage": "https://bind-to-route53-mirror-walkthrough.johna.kiwi",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-13T12:17:12Z",
-      "updated_at": "2026-08-30T05:06:33Z",
+      "updated_at": "2026-08-31T10:19:58Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -542,7 +542,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-13T01:39:18Z",
-      "updated_at": "2026-08-30T05:10:51Z",
+      "updated_at": "2026-08-31T10:50:41Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -703,7 +703,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-08-30T09:07:37Z",
+      "updated_at": "2026-08-31T09:40:53Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -972,14 +972,14 @@
       "full_name": "jajera/pr-readiness-coach-walkthrough",
       "description": "Walkthrough guide for deploying and using the PR Readiness Coach",
       "html_url": "https://github.com/jajera/pr-readiness-coach-walkthrough",
-      "homepage": "https://jajera.github.io/pr-readiness-coach-walkthrough/",
+      "homepage": "https://pr-readiness-coach-walkthrough.johna.kiwi",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-12T10:38:39Z",
-      "updated_at": "2026-08-30T05:11:55Z",
+      "updated_at": "2026-08-31T10:45:09Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1117,7 +1117,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-03T11:47:58Z",
-      "updated_at": "2026-08-30T05:12:26Z",
+      "updated_at": "2026-08-31T10:53:03Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3034,7 +3034,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-31T04:21:38.038Z",
+    "lastUpdated": "2026-08-31T13:01:15.015Z",
     "sources": {
       "users": [
         "jajera"
