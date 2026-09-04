@@ -737,6 +737,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1356271051,
+      "name": "geonet-web-strata",
+      "full_name": "jajera/geonet-web-strata",
+      "description": "Spec driven feature kit for the GeoNet website",
+      "html_url": "https://github.com/jajera/geonet-web-strata",
+      "homepage": "https://jajera.github.io/geonet-web-strata/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-09-03T17:52:27Z",
+      "updated_at": "2026-09-03T21:01:47Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/geonet-web-strata",
+      "isUserRepo": true
+    },
+    {
       "id": 1297081898,
       "name": "guides",
       "full_name": "jajera/guides",
@@ -3027,14 +3050,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 131,
+    "totalCount": 132,
     "categories": {
-      "web-apps": 62,
+      "web-apps": 63,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-09-03T20:41:18.838Z",
+    "lastUpdated": "2026-09-04T03:31:15.188Z",
     "sources": {
       "users": [
         "jajera"
