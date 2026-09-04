@@ -703,7 +703,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-09-03T08:00:30Z",
+      "updated_at": "2026-09-04T07:55:21Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -749,7 +749,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-03T17:52:27Z",
-      "updated_at": "2026-09-03T21:01:47Z",
+      "updated_at": "2026-09-04T03:35:55Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -849,6 +849,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/image-to-svg-webapp",
+      "isUserRepo": true
+    },
+    {
+      "id": 1355086349,
+      "name": "kinesis-s3-delivery-walkthrough",
+      "full_name": "jajera/kinesis-s3-delivery-walkthrough",
+      "description": "Guided CLI walkthrough for Kinesis Data Streams S3 delivery with taxi replay visualization and teardown",
+      "html_url": "https://github.com/jajera/kinesis-s3-delivery-walkthrough",
+      "homepage": "https://jajera.github.io/kinesis-s3-delivery-walkthrough/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-09-02T18:13:05Z",
+      "updated_at": "2026-09-04T05:03:58Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/kinesis-s3-delivery-walkthrough",
       "isUserRepo": true
     },
     {
@@ -3050,14 +3073,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 132,
+    "totalCount": 133,
     "categories": {
-      "web-apps": 63,
+      "web-apps": 64,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-09-04T03:31:15.188Z",
+    "lastUpdated": "2026-09-04T10:51:34.657Z",
     "sources": {
       "users": [
         "jajera"
