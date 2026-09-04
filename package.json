@@ -8,7 +8,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "update": "node scripts/update-repositories.mjs"
+    "update": "node scripts/update-repositories.mjs",
+    "check:data": "node scripts/check-index.mjs data",
+    "check:dist": "node scripts/check-index.mjs dist",
+    "test": "npm run check:data"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
