@@ -1,9 +1,4 @@
-import { readFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import path from 'node:path';
-
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const dataPath = path.join(root, 'data', 'repositories.json');
+import data from '../../data/repositories.json';
 
 export type RepoItem = {
   id: string | number;
@@ -48,16 +43,10 @@ export const CATEGORY_LABELS: Record<string, string> = {
 export const CATEGORY_KEYS = Object.keys(CATEGORY_LABELS);
 
 export function loadRepositories(): RepoData {
-  try {
-    const raw = readFileSync(dataPath, 'utf8');
-    const data = JSON.parse(raw) as RepoData;
-    if (!Array.isArray(data.repositories)) {
-      return emptyData();
-    }
-    return data;
-  } catch {
+  if (!Array.isArray(data.repositories)) {
     return emptyData();
   }
+  return data as RepoData;
 }
 
 function emptyData(): RepoData {
