@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    uses: actionsforge/actions/.github/workflows/node-ci-workflow.yml@main
+    with:
+      node-version: "22"
+      install-command: npm ci --no-audit --no-fund
+      test-command: npm run check:data
+      build: true
+      build-command: npm run build && npm run check:dist
+      typecheck: false
+      audit: false
