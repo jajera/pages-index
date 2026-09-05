@@ -703,7 +703,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-09-04T07:55:21Z",
+      "updated_at": "2026-09-05T07:35:45Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -772,7 +772,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-08-31T19:01:07Z",
+      "updated_at": "2026-09-05T09:53:05Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -857,14 +857,14 @@
       "full_name": "jajera/kinesis-s3-delivery-walkthrough",
       "description": "Guided CLI walkthrough for Kinesis Data Streams S3 delivery with taxi replay visualization and teardown",
       "html_url": "https://github.com/jajera/kinesis-s3-delivery-walkthrough",
-      "homepage": "https://jajera.github.io/kinesis-s3-delivery-walkthrough/",
+      "homepage": "http://kinesis-s3-delivery-walkthrough.johna.kiwi/",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-02T18:13:05Z",
-      "updated_at": "2026-09-04T05:03:58Z",
+      "updated_at": "2026-09-05T09:39:22Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1041,14 +1041,14 @@
       "full_name": "jajera/private-s3-artifact-store",
       "description": "Private multi account S3 artifact store over VPC endpoints",
       "html_url": "https://github.com/jajera/private-s3-artifact-store",
-      "homepage": "https://jajera.github.io/private-s3-artifact-store/",
+      "homepage": "http://private-s3-artifact-store.johna.kiwi/",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-04T06:09:34Z",
-      "updated_at": "2026-09-04T23:26:20Z",
+      "updated_at": "2026-09-05T09:40:16Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1056,6 +1056,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/private-s3-artifact-store",
+      "isUserRepo": true
+    },
+    {
+      "id": 1357679293,
+      "name": "private-s3-pkg-repo",
+      "full_name": "jajera/private-s3-pkg-repo",
+      "description": "Private multi-region package repos on S3 via regional gateway VPC endpoints",
+      "html_url": "https://github.com/jajera/private-s3-pkg-repo",
+      "homepage": "http://private-s3-pkg-repo.johna.kiwi/",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-09-04T23:42:17Z",
+      "updated_at": "2026-09-05T09:39:34Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/private-s3-pkg-repo",
       "isUserRepo": true
     },
     {
@@ -1554,7 +1577,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-04-23T00:47:31Z",
-      "updated_at": "2026-08-29T07:17:25Z",
+      "updated_at": "2026-09-05T07:14:42Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -3096,14 +3119,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 134,
+    "totalCount": 135,
     "categories": {
-      "web-apps": 65,
+      "web-apps": 66,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-09-05T03:29:44.875Z",
+    "lastUpdated": "2026-09-05T10:09:53.198Z",
     "sources": {
       "users": [
         "jajera"
