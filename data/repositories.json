@@ -818,7 +818,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-09-19T03:11:53Z",
+      "updated_at": "2026-09-20T03:42:47Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -949,14 +949,14 @@
       "full_name": "jajera/kiro-wsl-aws-setup-guide",
       "description": "Kiro IDE + WSL2 + AWS SSO development environment setup",
       "html_url": "https://github.com/jajera/kiro-wsl-aws-setup-guide",
-      "homepage": "https://jajera.github.io/kiro-wsl-aws-setup-guide/",
+      "homepage": "https://kiro-wsl-aws-setup-guide.johna.kiwi/",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-14T09:31:49Z",
-      "updated_at": "2026-07-25T03:27:21Z",
+      "updated_at": "2026-09-20T03:19:52Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1312,6 +1312,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1377672962,
+      "name": "s3-express-hot-lookup-walkthrough",
+      "full_name": "jajera/s3-express-hot-lookup-walkthrough",
+      "description": "Hands-on S3 Express One Zone hot cache lab in one AZ",
+      "html_url": "https://github.com/jajera/s3-express-hot-lookup-walkthrough",
+      "homepage": "https://s3-express-hot-lookup-walkthrough.johna.kiwi/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-09-19T22:38:45Z",
+      "updated_at": "2026-09-20T01:50:33Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/s3-express-hot-lookup-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1204924030,
       "name": "s3-files-workloads",
       "full_name": "jajera/s3-files-workloads",
@@ -1324,7 +1347,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-04-08T13:16:33Z",
-      "updated_at": "2026-08-30T05:13:46Z",
+      "updated_at": "2026-09-19T20:41:31Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1485,7 +1508,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2026-04-10T09:08:44Z",
-      "updated_at": "2026-04-12T00:53:21Z",
+      "updated_at": "2026-09-19T20:37:43Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1669,7 +1692,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-05-16T13:06:58Z",
-      "updated_at": "2026-09-19T16:13:34Z",
+      "updated_at": "2026-09-19T22:46:01Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -3188,14 +3211,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 138,
+    "totalCount": 139,
     "categories": {
-      "web-apps": 69,
+      "web-apps": 70,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-09-19T20:13:41.603Z",
+    "lastUpdated": "2026-09-20T03:57:29.421Z",
     "sources": {
       "users": [
         "jajera"
