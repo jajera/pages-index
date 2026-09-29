@@ -611,7 +611,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-11T09:03:52Z",
-      "updated_at": "2026-09-22T13:07:35Z",
+      "updated_at": "2026-09-29T13:06:54Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -864,7 +864,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-09-26T09:19:14Z",
+      "updated_at": "2026-09-29T18:14:43Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1079,6 +1079,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/mermaid-diagram-editor",
+      "isUserRepo": true
+    },
+    {
+      "id": 1393664457,
+      "name": "meshtastic-heltec-v4-walkthrough",
+      "full_name": "jajera/meshtastic-heltec-v4-walkthrough",
+      "description": "Flash and first setup for Heltec WiFi LoRa 32 V4 on Meshtastic",
+      "html_url": "https://github.com/jajera/meshtastic-heltec-v4-walkthrough",
+      "homepage": "http://meshtastic-heltec-v4-walkthrough.johna.kiwi/",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-09-28T19:00:24Z",
+      "updated_at": "2026-09-29T19:45:38Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/meshtastic-heltec-v4-walkthrough",
       "isUserRepo": true
     },
     {
@@ -1669,7 +1692,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-04-13T20:03:04Z",
-      "updated_at": "2026-09-22T19:58:06Z",
+      "updated_at": "2026-09-29T19:57:26Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -1738,7 +1761,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-05-16T13:06:58Z",
-      "updated_at": "2026-09-26T16:17:23Z",
+      "updated_at": "2026-09-29T16:09:22Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -3257,14 +3280,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 141,
+    "totalCount": 142,
     "categories": {
-      "web-apps": 72,
+      "web-apps": 73,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-09-29T12:22:24.151Z",
+    "lastUpdated": "2026-09-29T22:01:10.189Z",
     "sources": {
       "users": [
         "jajera"
