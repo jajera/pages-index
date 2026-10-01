@@ -795,7 +795,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-09-30T09:33:33Z",
+      "updated_at": "2026-10-01T09:59:47Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -864,7 +864,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-09-29T18:14:43Z",
+      "updated_at": "2026-10-01T07:45:09Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1079,6 +1079,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/mermaid-diagram-editor",
+      "isUserRepo": true
+    },
+    {
+      "id": 1399412635,
+      "name": "meshcore-heltec-v4-walkthrough",
+      "full_name": "jajera/meshcore-heltec-v4-walkthrough",
+      "description": "Flash and first setup for Heltec WiFi LoRa 32 V4 on MeshCore",
+      "html_url": "https://github.com/jajera/meshcore-heltec-v4-walkthrough",
+      "homepage": "http://meshcore-heltec-v4-walkthrough.johna.kiwi/",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-01T07:30:17Z",
+      "updated_at": "2026-10-01T09:22:56Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/meshcore-heltec-v4-walkthrough",
       "isUserRepo": true
     },
     {
@@ -3280,14 +3303,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 142,
+    "totalCount": 143,
     "categories": {
-      "web-apps": 73,
+      "web-apps": 74,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-01T04:45:43.924Z",
+    "lastUpdated": "2026-10-01T12:40:56.996Z",
     "sources": {
       "users": [
         "jajera"
