@@ -530,6 +530,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1402795309,
+      "name": "class-ab-mini-amp",
+      "full_name": "jajera/class-ab-mini-amp",
+      "description": "Discrete Class-AB complementary push-pull mini audio amp (BC547/BC557)",
+      "html_url": "https://github.com/jajera/class-ab-mini-amp",
+      "homepage": "https://jajera.github.io/class-ab-mini-amp/",
+      "language": "CSS",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-03T07:05:35Z",
+      "updated_at": "2026-10-03T08:05:50Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/class-ab-mini-amp",
+      "isUserRepo": true
+    },
+    {
       "id": 1319846255,
       "name": "cncf-icons",
       "full_name": "jajera/cncf-icons",
@@ -795,7 +818,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-10-02T09:36:00Z",
+      "updated_at": "2026-10-03T09:03:38Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1255,7 +1278,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-04T23:42:17Z",
-      "updated_at": "2026-09-26T08:33:14Z",
+      "updated_at": "2026-10-03T08:34:15Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1784,7 +1807,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-04-23T00:47:31Z",
-      "updated_at": "2026-09-29T05:46:29Z",
+      "updated_at": "2026-10-03T07:14:57Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -3326,14 +3349,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 144,
+    "totalCount": 145,
     "categories": {
-      "web-apps": 75,
+      "web-apps": 76,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-03T04:19:49.147Z",
+    "lastUpdated": "2026-10-03T11:17:26.851Z",
     "sources": {
       "users": [
         "jajera"
