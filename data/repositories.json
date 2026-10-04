@@ -59,7 +59,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-29T21:41:37Z",
-      "updated_at": "2026-09-29T11:30:56Z",
+      "updated_at": "2026-10-04T03:17:28Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1194,6 +1194,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/oceania-aws-vcd-1",
+      "isUserRepo": true
+    },
+    {
+      "id": 1403877319,
+      "name": "picaxe-08m2-temp-humidity-lcd",
+      "full_name": "jajera/picaxe-08m2-temp-humidity-lcd",
+      "description": "PICAXE 08M2 temp humidity meter with I2C 1602 LCD",
+      "html_url": "https://github.com/jajera/picaxe-08m2-temp-humidity-lcd",
+      "homepage": "https://jajera.github.io/picaxe-08m2-temp-humidity-lcd/",
+      "language": "CSS",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-04T04:14:32Z",
+      "updated_at": "2026-10-04T04:46:32Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/picaxe-08m2-temp-humidity-lcd",
       "isUserRepo": true
     },
     {
@@ -3349,14 +3372,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 145,
+    "totalCount": 146,
     "categories": {
-      "web-apps": 76,
+      "web-apps": 77,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-03T20:45:03.118Z",
+    "lastUpdated": "2026-10-04T04:50:58.522Z",
     "sources": {
       "users": [
         "jajera"
