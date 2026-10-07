@@ -1174,6 +1174,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1408704989,
+      "name": "nz-house-hunt",
+      "full_name": "jajera/nz-house-hunt",
+      "description": "Search NZ houses for sale with area presets; static GitHub Pages site refreshed from realestate.co.nz",
+      "html_url": "https://github.com/jajera/nz-house-hunt",
+      "homepage": "https://jajera.github.io/nz-house-hunt/",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-07T11:49:46Z",
+      "updated_at": "2026-10-07T18:01:57Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/nz-house-hunt",
+      "isUserRepo": true
+    },
+    {
       "id": 1115658965,
       "name": "oceania-aws-vcd-1",
       "full_name": "jajera/oceania-aws-vcd-1",
@@ -1922,7 +1945,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2026-01-28T03:44:46Z",
-      "updated_at": "2026-09-30T18:27:51Z",
+      "updated_at": "2026-10-07T18:28:00Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -3046,7 +3069,7 @@
       "language": "Go",
       "topics": [],
       "stargazers_count": 4,
-      "forks_count": 1,
+      "forks_count": 2,
       "has_pages": false,
       "created_at": "2025-12-22T07:25:07Z",
       "updated_at": "2026-10-04T16:56:44Z",
@@ -3395,14 +3418,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 147,
+    "totalCount": 148,
     "categories": {
-      "web-apps": 78,
+      "web-apps": 79,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-07T12:52:53.932Z",
+    "lastUpdated": "2026-10-07T22:53:39.411Z",
     "sources": {
       "users": [
         "jajera"
