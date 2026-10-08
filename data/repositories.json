@@ -818,7 +818,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-10-07T10:06:38Z",
+      "updated_at": "2026-10-08T10:19:37Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1140,7 +1140,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-10-01T07:30:17Z",
-      "updated_at": "2026-10-01T09:22:56Z",
+      "updated_at": "2026-10-08T08:18:10Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1746,6 +1746,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/tgw-policy-based-routing-walkthrough",
+      "isUserRepo": true
+    },
+    {
+      "id": 1405581546,
+      "name": "ubuntu-server-walkthrough",
+      "full_name": "jajera/ubuntu-server-walkthrough",
+      "description": "Ubuntu Server from ISO to SSH-ready host",
+      "html_url": "https://github.com/jajera/ubuntu-server-walkthrough",
+      "homepage": "http://ubuntu-server-walkthrough.johna.kiwi/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-05T10:41:42Z",
+      "updated_at": "2026-10-08T08:27:59Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/ubuntu-server-walkthrough",
       "isUserRepo": true
     },
     {
@@ -3418,14 +3441,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 148,
+    "totalCount": 149,
     "categories": {
-      "web-apps": 79,
+      "web-apps": 80,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-08T05:04:33.430Z",
+    "lastUpdated": "2026-10-08T13:01:29.133Z",
     "sources": {
       "users": [
         "jajera"
