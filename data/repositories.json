@@ -82,7 +82,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-02T05:49:51Z",
-      "updated_at": "2026-09-07T18:38:18Z",
+      "updated_at": "2026-10-10T00:12:21Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-11-29T19:47:28Z",
-      "updated_at": "2026-10-01T17:46:32Z",
+      "updated_at": "2026-10-10T04:08:08Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -297,6 +297,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/aws-icons",
+      "isUserRepo": true
+    },
+    {
+      "id": 1404139126,
+      "name": "aws-iot-greengrass-v2-edge-walkthrough",
+      "full_name": "jajera/aws-iot-greengrass-v2-edge-walkthrough",
+      "description": "AWS IoT Greengrass v2 edge walkthrough with core and ESP32 client",
+      "html_url": "https://github.com/jajera/aws-iot-greengrass-v2-edge-walkthrough",
+      "homepage": "https://aws-iot-greengrass-v2-edge-walkthrough.johna.kiwi/",
+      "language": "Astro",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-04T08:28:05Z",
+      "updated_at": "2026-10-10T04:40:20Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-iot-greengrass-v2-edge-walkthrough",
       "isUserRepo": true
     },
     {
@@ -450,7 +473,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-25T11:30:20Z",
-      "updated_at": "2026-10-09T01:09:19Z",
+      "updated_at": "2026-10-09T23:08:30Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -473,7 +496,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-02T03:49:00Z",
-      "updated_at": "2026-09-07T18:38:27Z",
+      "updated_at": "2026-10-10T00:12:30Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -565,7 +588,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-02T05:24:45Z",
-      "updated_at": "2026-09-07T18:38:06Z",
+      "updated_at": "2026-10-10T00:12:36Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -726,7 +749,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-16T19:17:13Z",
-      "updated_at": "2026-09-05T02:23:42Z",
+      "updated_at": "2026-10-10T02:23:32Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -749,7 +772,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-19T02:33:25Z",
-      "updated_at": "2026-09-07T18:38:38Z",
+      "updated_at": "2026-10-10T04:08:13Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -887,7 +910,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-10-01T07:45:09Z",
+      "updated_at": "2026-10-09T23:56:44Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1117,7 +1140,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-11T12:30:58Z",
-      "updated_at": "2026-09-23T07:23:36Z",
+      "updated_at": "2026-10-10T00:12:43Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3441,14 +3464,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 149,
+    "totalCount": 150,
     "categories": {
-      "web-apps": 80,
+      "web-apps": 81,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-09T22:25:29.718Z",
+    "lastUpdated": "2026-10-10T04:53:04.437Z",
     "sources": {
       "users": [
         "jajera"
