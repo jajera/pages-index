@@ -1,6 +1,29 @@
 {
   "repositories": [
     {
+      "id": 1412850658,
+      "name": "acm-public-vs-private-ca-walkthrough",
+      "full_name": "jajera/acm-public-vs-private-ca-walkthrough",
+      "description": "Demo ACM public certificates versus AWS Private CA trust for intranet TLS",
+      "html_url": "https://github.com/jajera/acm-public-vs-private-ca-walkthrough",
+      "homepage": "https://acm-public-vs-private-ca-walkthrough.johna.kiwi/",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-10T06:31:12Z",
+      "updated_at": "2026-10-10T22:53:35Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/acm-public-vs-private-ca-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1004949513,
       "name": "amazon-q-cli-slides",
       "full_name": "jajera/amazon-q-cli-slides",
@@ -59,7 +82,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-29T21:41:37Z",
-      "updated_at": "2026-10-04T03:17:28Z",
+      "updated_at": "2026-10-11T01:35:03Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -910,7 +933,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-10-09T23:56:44Z",
+      "updated_at": "2026-10-10T22:32:41Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3464,14 +3487,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 150,
+    "totalCount": 151,
     "categories": {
-      "web-apps": 81,
+      "web-apps": 82,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-10T21:19:25.293Z",
+    "lastUpdated": "2026-10-11T04:39:13.719Z",
     "sources": {
       "users": [
         "jajera"
