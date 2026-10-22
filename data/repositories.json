@@ -887,7 +887,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-10-21T08:27:49Z",
+      "updated_at": "2026-10-22T08:30:20Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1133,14 +1133,14 @@
       "full_name": "jajera/kueue-eks-walkthrough",
       "description": "Batch job queuing on EKS with Kueue queues fair share and Argo CD deploy steps",
       "html_url": "https://github.com/jajera/kueue-eks-walkthrough",
-      "homepage": "https://jajera.github.io/kueue-eks-walkthrough/",
+      "homepage": "https://kueue-eks-walkthrough.johna.kiwi/",
       "language": "MDX",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-19T20:43:12Z",
-      "updated_at": "2026-10-16T13:24:42Z",
+      "updated_at": "2026-10-22T08:02:15Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1209,7 +1209,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-10-01T07:30:17Z",
-      "updated_at": "2026-10-15T08:14:39Z",
+      "updated_at": "2026-10-22T08:14:48Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3517,7 +3517,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-22T03:46:00.022Z",
+    "lastUpdated": "2026-10-22T11:22:28.570Z",
     "sources": {
       "users": [
         "jajera"
