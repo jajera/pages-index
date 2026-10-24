@@ -335,7 +335,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-10-04T08:28:05Z",
-      "updated_at": "2026-10-16T23:14:53Z",
+      "updated_at": "2026-10-23T23:15:36Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -783,6 +783,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1431695950,
+      "name": "esp32-s3-seismo",
+      "full_name": "jajera/esp32-s3-seismo",
+      "description": "ESP32 S3 seismometer with LSM6DSO and ST7789",
+      "html_url": "https://github.com/jajera/esp32-s3-seismo",
+      "homepage": "http://esp32-s3-seismo.johna.kiwi/",
+      "language": "C++",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-10-24T01:03:57Z",
+      "updated_at": "2026-10-24T02:49:29Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/esp32-s3-seismo",
+      "isUserRepo": true
+    },
+    {
       "id": 1303161209,
       "name": "focus-timer",
       "full_name": "jajera/focus-timer",
@@ -956,7 +979,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-10-15T08:06:18Z",
+      "updated_at": "2026-10-24T02:46:25Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1899,7 +1922,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-01-04T12:01:09Z",
-      "updated_at": "2026-07-30T08:45:31Z",
+      "updated_at": "2026-10-24T03:13:09Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -3510,14 +3533,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 152,
+    "totalCount": 153,
     "categories": {
-      "web-apps": 83,
+      "web-apps": 84,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-23T21:09:33.462Z",
+    "lastUpdated": "2026-10-24T03:44:33.812Z",
     "sources": {
       "users": [
         "jajera"
