@@ -726,7 +726,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-13T01:39:18Z",
-      "updated_at": "2026-10-19T01:36:06Z",
+      "updated_at": "2026-10-26T01:37:27Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -734,6 +734,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/ecs-express-mode-walkthrough",
+      "isUserRepo": true
+    },
+    {
+      "id": 1433124268,
+      "name": "ecs-gateway-walkthrough",
+      "full_name": "jajera/ecs-gateway-walkthrough",
+      "description": "Hands on walkthrough for Amazon ECS Gateway self serve ingress",
+      "html_url": "https://github.com/jajera/ecs-gateway-walkthrough",
+      "homepage": "http://ecs-gateway-walkthrough.johna.kiwi/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "has_pages": true,
+      "created_at": "2026-10-25T11:29:44Z",
+      "updated_at": "2026-10-26T03:14:17Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/ecs-gateway-walkthrough",
       "isUserRepo": true
     },
     {
@@ -1002,7 +1025,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-10-24T12:29:12Z",
+      "updated_at": "2026-10-26T03:12:04Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1228,11 +1251,11 @@
       "homepage": "http://mermaid-diagram-editor.johna.kiwi/",
       "language": "JavaScript",
       "topics": [],
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "forks_count": 1,
       "has_pages": true,
       "created_at": "2025-06-11T12:30:58Z",
-      "updated_at": "2026-10-10T00:12:43Z",
+      "updated_at": "2026-10-26T03:30:39Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1600,7 +1623,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-19T10:59:24Z",
-      "updated_at": "2026-10-18T22:43:24Z",
+      "updated_at": "2026-10-25T22:43:36Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1623,7 +1646,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-19T22:38:45Z",
-      "updated_at": "2026-10-18T23:15:50Z",
+      "updated_at": "2026-10-25T23:13:45Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3556,14 +3579,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 154,
+    "totalCount": 155,
     "categories": {
-      "web-apps": 85,
+      "web-apps": 86,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-10-25T20:32:39.254Z",
+    "lastUpdated": "2026-10-26T03:46:09.522Z",
     "sources": {
       "users": [
         "jajera"
