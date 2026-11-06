@@ -404,7 +404,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-10-14T08:32:20Z",
-      "updated_at": "2026-10-28T10:09:08Z",
+      "updated_at": "2026-11-06T05:11:42Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -519,7 +519,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-25T11:30:20Z",
-      "updated_at": "2026-10-30T01:07:22Z",
+      "updated_at": "2026-11-06T01:06:57Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -852,6 +852,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1445238545,
+      "name": "esp32-s3-weatherstation",
+      "full_name": "jajera/esp32-s3-weatherstation",
+      "description": "ESP32-S3 weather station with live display and data logging",
+      "html_url": "https://github.com/jajera/esp32-s3-weatherstation",
+      "homepage": "https://esp32-s3-weatherstation.johna.kiwi/",
+      "language": "C++",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-11-04T06:15:32Z",
+      "updated_at": "2026-11-05T21:06:01Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/esp32-s3-weatherstation",
+      "isUserRepo": true
+    },
+    {
       "id": 1303161209,
       "name": "focus-timer",
       "full_name": "jajera/focus-timer",
@@ -1025,7 +1048,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-10-26T03:12:04Z",
+      "updated_at": "2026-11-05T21:08:48Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3579,14 +3602,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 155,
+    "totalCount": 156,
     "categories": {
-      "web-apps": 86,
+      "web-apps": 87,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-11-05T14:13:53.404Z",
+    "lastUpdated": "2026-11-06T05:37:38.507Z",
     "sources": {
       "users": [
         "jajera"
