@@ -841,7 +841,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-10-24T01:03:57Z",
-      "updated_at": "2026-10-31T14:43:34Z",
+      "updated_at": "2026-11-07T14:43:24Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1048,7 +1048,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-11-05T21:08:48Z",
+      "updated_at": "2026-11-07T21:03:23Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1516,6 +1516,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/privatelink-conduit",
+      "isUserRepo": true
+    },
+    {
+      "id": 1449740204,
+      "name": "proxmox-ve-walkthrough",
+      "full_name": "jajera/proxmox-ve-walkthrough",
+      "description": "Proxmox VE from ISO to web UI ready host",
+      "html_url": "https://github.com/jajera/proxmox-ve-walkthrough",
+      "homepage": "https://proxmox-ve-walkthrough.johna.kiwi/",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-11-07T21:08:18Z",
+      "updated_at": "2026-11-07T21:33:21Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/proxmox-ve-walkthrough",
       "isUserRepo": true
     },
     {
@@ -2037,7 +2060,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-04-20T20:34:59Z",
-      "updated_at": "2026-10-24T18:55:37Z",
+      "updated_at": "2026-11-07T12:45:22Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -2083,7 +2106,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-05-16T13:06:58Z",
-      "updated_at": "2026-10-31T16:13:15Z",
+      "updated_at": "2026-11-07T16:15:44Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -3602,14 +3625,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 156,
+    "totalCount": 157,
     "categories": {
-      "web-apps": 87,
+      "web-apps": 88,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-11-07T12:39:40.077Z",
+    "lastUpdated": "2026-11-07T21:35:26.682Z",
     "sources": {
       "users": [
         "jajera"
