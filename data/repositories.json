@@ -105,7 +105,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-02T05:49:51Z",
-      "updated_at": "2026-10-10T00:12:21Z",
+      "updated_at": "2026-11-10T07:27:28Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -533,7 +533,7 @@
       "id": 1319796087,
       "name": "azure-icons",
       "full_name": "jajera/azure-icons",
-      "description": "Browse and copy gcp service icons",
+      "description": "Browse and copy azure service icons",
       "html_url": "https://github.com/jajera/azure-icons",
       "homepage": "http://azure-icons.johna.kiwi/",
       "language": "HTML",
@@ -542,7 +542,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-02T03:49:00Z",
-      "updated_at": "2026-10-10T00:12:30Z",
+      "updated_at": "2026-11-10T07:11:04Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -703,7 +703,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-11T09:03:52Z",
-      "updated_at": "2026-11-03T13:07:10Z",
+      "updated_at": "2026-11-10T13:06:47Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -979,7 +979,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-11-09T11:13:13Z",
+      "updated_at": "2026-11-10T10:57:27Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1347,7 +1347,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-09-28T19:00:24Z",
-      "updated_at": "2026-11-03T06:45:10Z",
+      "updated_at": "2026-11-10T06:44:54Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3655,7 +3655,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-11-10T01:18:30.686Z",
+    "lastUpdated": "2026-11-10T14:31:49.783Z",
     "sources": {
       "users": [
         "jajera"
