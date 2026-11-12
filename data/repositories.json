@@ -806,6 +806,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1453712634,
+      "name": "esp32-c3-ha-lux",
+      "full_name": "jajera/esp32-c3-ha-lux",
+      "description": "ESP32-C3 VEML7700 lux sensor with LED auto-on for Home Assistant via ESPHome",
+      "html_url": "https://github.com/jajera/esp32-c3-ha-lux",
+      "homepage": null,
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-11-11T08:26:10Z",
+      "updated_at": "2026-11-12T11:24:46Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/esp32-c3-ha-lux",
+      "isUserRepo": true
+    },
+    {
       "id": 1431799217,
       "name": "esp32-gnss-field",
       "full_name": "jajera/esp32-gnss-field",
@@ -1002,7 +1025,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-11-11T11:37:35Z",
+      "updated_at": "2026-11-12T11:52:16Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1071,7 +1094,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-11-10T22:06:36Z",
+      "updated_at": "2026-11-12T11:25:03Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1347,7 +1370,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-10-01T07:30:17Z",
-      "updated_at": "2026-11-05T08:15:17Z",
+      "updated_at": "2026-11-12T09:15:08Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3671,14 +3694,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 159,
+    "totalCount": 160,
     "categories": {
-      "web-apps": 90,
+      "web-apps": 91,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-11-12T00:13:30.397Z",
+    "lastUpdated": "2026-11-12T14:49:57.825Z",
     "sources": {
       "users": [
         "jajera"
